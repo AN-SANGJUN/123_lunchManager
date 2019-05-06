@@ -9,12 +9,12 @@
 import Foundation
 import UIKit
 
-class RestaurantModel
-{
-    var placeNo : Int = 0
-    var placeName : String = ""
-    var longitude : Double = 0.0
-    var latitude : Double = 0.0
-    var rating : Int = 0
-    var mainPic : UIImage?
+struct RestaurantModel {
+    
+    var placeNo: Int
+    var placeName: String
+    var longitude: Double
+    var latitude: Double
+    var rating: Int
+    var mainPic: UIImage
 }

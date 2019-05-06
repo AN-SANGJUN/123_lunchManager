@@ -9,12 +9,11 @@
 import Foundation
 import UIKit
 
-class TodayController: UIViewController
-{
+class TodayController: UIViewController {
+    
     let dateFormatter = DateFormatter()
     
-    func setTodayLabel(uiLabel : UILabel)
-    {
+    func setTodayLabel(uiLabel : UILabel) {
         let today = Date()
         dateFormatter.dateStyle = .short
         print("1 : \(dateFormatter.string(from: today))")

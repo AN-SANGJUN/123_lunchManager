@@ -14,6 +14,8 @@
 		1E27532D222A72950035B6C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E27532C222A72950035B6C2 /* Assets.xcassets */; };
 		1E275330222A72950035B6C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E27532E222A72950035B6C2 /* LaunchScreen.storyboard */; };
 		1E27533B222A72950035B6C2 /* lunchManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E27533A222A72950035B6C2 /* lunchManagerTests.swift */; };
+		1E68FC09228030F4006869DA /* idCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E68FC08228030F4006869DA /* idCard.png */; };
+		1E68FC0B22803869006869DA /* ViewCommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E68FC0A22803869006869DA /* ViewCommonFunction.swift */; };
 		1E6D95CF222A77D80077741E /* TodayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6D95CE222A77D80077741E /* TodayController.swift */; };
 		1E6D95D1222A78740077741E /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6D95D0222A78740077741E /* CalendarController.swift */; };
 		1E6D95D7222B96930077741E /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E6D95D6222B96930077741E /* Calendar.png */; };
@@ -45,6 +47,8 @@
 		1E275336222A72950035B6C2 /* lunchManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lunchManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E27533A222A72950035B6C2 /* lunchManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lunchManagerTests.swift; sourceTree = "<group>"; };
 		1E27533C222A72950035B6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E68FC08228030F4006869DA /* idCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = idCard.png; sourceTree = "<group>"; };
+		1E68FC0A22803869006869DA /* ViewCommonFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCommonFunction.swift; sourceTree = "<group>"; };
 		1E6D95CE222A77D80077741E /* TodayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayController.swift; sourceTree = "<group>"; };
 		1E6D95D0222A78740077741E /* CalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
 		1E6D95D6222B96930077741E /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar.png; sourceTree = "<group>"; };
@@ -126,6 +130,7 @@
 			children = (
 				1E275325222A72940035B6C2 /* TodayViewController.swift */,
 				1E275327222A72940035B6C2 /* CalendarViewController.swift */,
+				1E68FC0A22803869006869DA /* ViewCommonFunction.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				1E27532C222A72950035B6C2 /* Assets.xcassets */,
+				1E68FC08228030F4006869DA /* idCard.png */,
 				1E6D95D6222B96930077741E /* Calendar.png */,
 				1E275331222A72950035B6C2 /* Info.plist */,
 			);
@@ -244,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E275330222A72950035B6C2 /* LaunchScreen.storyboard in Resources */,
+				1E68FC09228030F4006869DA /* idCard.png in Resources */,
 				1E6D95D7222B96930077741E /* Calendar.png in Resources */,
 				1E27532D222A72950035B6C2 /* Assets.xcassets in Resources */,
 				1E27532B222A72940035B6C2 /* Main.storyboard in Resources */,
@@ -269,6 +276,7 @@
 				1E6D95CF222A77D80077741E /* TodayController.swift in Sources */,
 				1E6D95D1222A78740077741E /* CalendarController.swift in Sources */,
 				1E7215B6222F7A5C00563D70 /* AccountModel.swift in Sources */,
+				1E68FC0B22803869006869DA /* ViewCommonFunction.swift in Sources */,
 				1E7215B4222F793100563D70 /* RestaurantModel.swift in Sources */,
 				1E275324222A72940035B6C2 /* AppDelegate.swift in Sources */,
 				1E275326222A72940035B6C2 /* TodayViewController.swift in Sources */,
