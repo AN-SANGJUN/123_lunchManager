@@ -8,14 +8,11 @@
 
 import Foundation
 
-class TodayModel
-{
-    struct today : Codable
-    {
-        var jKey : Int = 0
-        var email : String = ""
-        var lunchDate : String = ""
-        var partnerName : String = ""
-        var placeNo : Int?
-    }
+struct TodayModel {
+    
+        var jKey : Int
+        var email : String
+        var lunchDate : String
+        var partnerName : String
+        var placeNo : Int
 }

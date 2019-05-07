@@ -8,10 +8,10 @@
 
 import Foundation
 
-class AccountModel
-{
-    var email : String = ""
-    var password : String = ""
-    var firstName : String = ""
-    var lastName : String = ""
+struct AccountModel {
+    
+    var email : String
+    var password : String
+    var firstName : String
+    var lastName : String
 }
