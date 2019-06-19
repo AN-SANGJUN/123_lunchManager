@@ -10,9 +10,9 @@ import Foundation
 
 struct TodayModel {
     
-        var jKey : Int
-        var email : String
-        var lunchDate : String
-        var partnerName : String
-        var placeNo : Int
+    var jKey : Int
+    var email : String
+    var lunchDate : String
+    var partnerName : String
+    var placeNo : Int
 }
