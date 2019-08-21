@@ -9,7 +9,6 @@
 import Foundation
 
 struct TodayModel {
-    
     var jKey : Int
     var email : String
     var lunchDate : String
