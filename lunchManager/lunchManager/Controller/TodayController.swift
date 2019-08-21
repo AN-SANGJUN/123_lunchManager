@@ -10,13 +10,12 @@ import Foundation
 import UIKit
 
 class TodayController: UIViewController {
-    
     let dateFormatter = DateFormatter()
-    
     func setTodayLabel(uiLabel : UILabel) {
         let today = Date()
-        dateFormatter.dateStyle = .short
-        let day = String(dateFormatter.string(from: today).split(separator: "/")[1])
+        dateFormatter.dateFormat = "yyyy년 MM월 dd일 (eeeee)"
+        dateFormatter.locale = Locale(identifier: "ko")
+        let day = "\t\(String(dateFormatter.string(from: today)))"
         uiLabel.text = day
     }
 }

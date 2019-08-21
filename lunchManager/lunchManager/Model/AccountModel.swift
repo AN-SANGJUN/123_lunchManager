@@ -9,7 +9,6 @@
 import Foundation
 
 struct AccountModel {
-    
     var email : String
     var password : String
     var firstName : String

@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 struct RestaurantModel {
-    
     var placeNo: Int
     var placeName: String
     var longitude: Double
