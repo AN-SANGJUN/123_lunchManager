@@ -15,3 +15,5 @@
 <br/>c) git clean -f -d
  
 5. 일부 소스 수정 후, commit을 찍었을 때 xcuserstate가 뜨지 않으면 완료!
+
+# iOS로 어렵다면, REACT로 한다!
